@@ -56,7 +56,7 @@ async function fetchImages(): Promise<string[]> {
 }
 
 async function fetchWords(): Promise<any[]> {
-    const response = await fetch('https://dictionary-api-b82u.onrender.com/random-30');
+    const response = await fetch('https://dictionary-api-ftv7.onrender.com/random-30');
     const data = await response.json();
     return data;
 }
